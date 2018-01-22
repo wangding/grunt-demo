@@ -10,13 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/wangding/grunt-demo.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "wangding",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wangding/grunt-demo/issues"
   },
   "homepage": "https://github.com/wangding/grunt-demo#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "browserify": "^16.2.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-uglify": "^3.3.0"
   }
 }
