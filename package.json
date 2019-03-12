@@ -1,0 +1,26 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "Grunt 试炼场",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding/grunt-demo.git"
+  },
+  "author": "wangding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangding/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/wangding/grunt-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-mocha-cli": "^4.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "istanbul": "^0.4.5"
+  }
+}
