@@ -1,0 +1,27 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "Grunt 试炼场",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-uncss": "^0.10.1"
+  },
+  "scripts": {
+    "build": "grunt && echo '\nbefore uncss' && ls -lh css && echo '\nafter uncss' && ls -lh dist/css",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding/grunt-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangding/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/wangding/grunt-demo#readme"
+}
